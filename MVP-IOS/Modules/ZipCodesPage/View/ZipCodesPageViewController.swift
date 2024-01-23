@@ -27,6 +27,7 @@ final class ZipCodesPageViewController: UIViewController, ZipCodesViewInput {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        presenter.viewDidLoad()
     }
     
     override func loadView() {

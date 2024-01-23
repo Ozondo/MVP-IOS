@@ -9,5 +9,9 @@ import Foundation
 
 struct ZipCodesResponse: Decodable {
     let zipcodes:[ZipCodesModel]
+    
+    enum CodingKeys: String, CodingKey {
+        case zipcodes = "zip_codes"
+    }
 }
 

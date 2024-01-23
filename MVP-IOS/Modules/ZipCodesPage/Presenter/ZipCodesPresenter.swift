@@ -29,6 +29,7 @@ final class ZipCodesPresenter: ZipCodesViewOutput {
             case .success(let success):
                 self?.response = success
                 DispatchQueue.main.async {
+                    
                     self?.view?.displayZipCodes(items: success.zipcodes)
                     print("success")
                 }

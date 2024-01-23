@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6F1883CF-288B-4E09-A4B5-64EBF9E8AA29"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3E46DD8-319A-4F49-99B3-F1354217CB3E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-IOS/Modules/ZipCodesPage/Service/ZipCodesService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "loadZips(cityName:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C464E368-A57C-485B-AEB5-6BABD932A10F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-IOS/Modules/ZipCodesPage/Service/ZipCodesService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "loadZips(cityName:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C464E368-A57C-485B-AEB5-6BABD932A10F - 7fb6553cf635f8ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in MVP_IOS.ZipCodeServiceImpl.loadZips(cityName: Swift.String, completion: (Swift.Result&lt;MVP_IOS.ZipCodesResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MVP-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-IOS/MVP-IOS/Modules/ZipCodesPage/Service/ZipCodesService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "C464E368-A57C-485B-AEB5-6BABD932A10F - 7fb6553cf635f8ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in MVP_IOS.ZipCodeServiceImpl.loadZips(cityName: Swift.String, completion: (Swift.Result&lt;MVP_IOS.ZipCodesResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MVP-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-IOS/MVP-IOS/Modules/ZipCodesPage/Service/ZipCodesService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4F3C955-5D9D-4EF2-9FF3-59AF4C67BE0B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-IOS/Modules/ZipCodesPage/Service/ZipCodesService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "loadZips(cityName:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6D02EEA-9AE1-40CE-8EB8-7C59804E8F3B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-IOS/Modules/ZipCodesPage/Presenter/ZipCodesPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2023B7B3-0B01-4930-8348-03079FB0A3B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-IOS/Modules/ZipCodesPage/Presenter/ZipCodesPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EE5536E-00EB-4248-BEE0-E82FE6BE6EA8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-IOS/Modules/ZipCodesPage/Presenter/ZipCodesPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6EE5536E-00EB-4248-BEE0-E82FE6BE6EA8 - 709ff1af022d567f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;MVP_IOS.ZipCodesResponse, Swift.Error&gt;) -&gt; () in MVP_IOS.ZipCodesPresenter.viewDidLoad() -&gt; ()"
+                  moduleName = "MVP-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-IOS/MVP-IOS/Modules/ZipCodesPage/Presenter/ZipCodesPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "512">
+               </Location>
+               <Location
+                  uuid = "6EE5536E-00EB-4248-BEE0-E82FE6BE6EA8 - a244e8b0ac8720df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;MVP_IOS.ZipCodesResponse, Swift.Error&gt;) -&gt; () in MVP_IOS.ZipCodesPresenter.viewDidLoad() -&gt; ()"
+                  moduleName = "MVP-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-IOS/MVP-IOS/Modules/ZipCodesPage/Presenter/ZipCodesPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0751BD56-B956-4B1D-8ACF-8F77A0207356"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-IOS/Modules/ZipCodesPage/Presenter/ZipCodesPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

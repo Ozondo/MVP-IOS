@@ -23,8 +23,6 @@ final class ZipCodesView: UIView {
         return collection
     }()
     
-    var itemTapped: ((Int) -> Void)?
-    
     //MARK: - init
     override init(frame: CGRect) {
         super.init(frame: .zero)
@@ -77,15 +75,11 @@ extension ZipCodesView: UICollectionViewDataSource, UICollectionViewDelegateFlow
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: bounds.width, height: 100)
     }
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        collectionView.deselectItem(at: indexPath, animated: true)
-        itemTapped?(indexPath.item)
-    }
-    
     
 }
 extension ZipCodesView {
     func updateZipCodes(cityFromNetwork: [ZipCodesModel]) {
-        cities.self = cityFromNetwork
+        cities = cityFromNetwork
+        collectionView.reloadData()
     }
 }

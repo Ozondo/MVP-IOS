@@ -25,7 +25,7 @@ extension ZipCodeTarget: TargetType {
     var path: String {
         switch self {
         case .getZipCode(let city):
-            return "/api/v1/zip_codes?city=\(city)"
+            return "/api/v1/zip_codes"
         }
     }
     
@@ -38,8 +38,8 @@ extension ZipCodeTarget: TargetType {
     
     var task: Moya.Task {
         switch self {
-        case .getZipCode:
-            return .requestPlain
+        case .getZipCode(let city):
+            return .requestParameters(parameters: ["city": city], encoding: URLEncoding.queryString)
         }
     }
     
